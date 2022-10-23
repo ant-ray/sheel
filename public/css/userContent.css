@@ -1,0 +1,68 @@
+.wrapper{
+    width: 100%;
+}
+
+.userContent{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #BDDFC2;
+    border-radius: 20px;
+    border: solid 1px #c0c0c0;
+    display: flex;
+    justify-content:space-between;
+}
+
+.userName{
+    margin: 20px;
+    background-color: white;
+    width: 250px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.userName:hover{
+    background-color: #f4f2f2;
+}
+
+.tel{
+    margin: 20px;
+    background-color: white;
+    height: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+}
+
+
+.back{
+    margin-top: 20px;
+}
+
+.backButton{
+    margin: 20px;
+    background-color: #C6A371;
+    width: 120px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.backButton:hover{
+    background-color: rgb(168, 127, 74);
+}

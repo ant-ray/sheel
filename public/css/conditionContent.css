@@ -1,0 +1,49 @@
+.wrapper{
+    width: 100%;
+}
+
+.conditionContent{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #BDDFC2;
+    border-radius: 20px;
+    border: solid 1px #c0c0c0;
+}
+
+.information{
+    display: flex;
+    justify-content: space-between;
+}
+
+.created_at{
+    margin: 20px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+}
+
+.condition{
+    margin: 20px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+}
+
+.body{
+    margin: 20px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 0.5rem;
+    word-wrap: break-word;
+    border: none;
+    outline: none;
+}

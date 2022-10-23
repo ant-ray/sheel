@@ -1,0 +1,67 @@
+.wrapper{
+    width: 100%;
+}
+
+.tenantContent{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #BDDFC2;
+    border-radius: 20px;
+    border: solid 1px #c0c0c0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.backButton{
+    margin: 20px;
+    background-color: #C6A371;
+    width: 120px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.backButton:hover{
+    background-color: rgb(168, 127, 74);
+}
+
+.tenantName{
+    margin: 20px;
+    background-color: white;
+    width: 300px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+    word-wrap: break-word;
+}
+
+.tenantName:hover{
+    background-color: #f4f2f2;
+}
+
+.emergency_contact{
+    margin: 20px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    word-wrap: break-word;
+}

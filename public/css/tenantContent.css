@@ -1,0 +1,56 @@
+.wrapper{
+    width: 100%;
+}
+
+.tenantContent{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #BDDFC2;
+    border-radius: 20px;
+    border: solid 1px #c0c0c0;
+}
+
+.tenantName{
+    margin: 20px;
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.tenantName:hover{
+    background-color: #f4f2f2;
+}
+
+.condition{
+    margin: 20px;
+    background-color: white;
+    width: 880px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 0.5rem;
+    word-wrap: break-word;
+    border: none;
+    outline: none;
+}
+
+.conditionButton{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+}

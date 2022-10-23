@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+.wrapper {
+    width: 100%;
+    margin: 0%;
+    position: relative;
+}
+
+.content {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.registerBox {
+    text-align: center;
+}
+
+.want {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 35px;
+}
+
+.radio{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.radio input{
+    width: 60px;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea {
+    resize: vertical;
+    font-size: 2.5rem;
+    width: 60%;
+    height: 280px;
+    margin-right: 0%;
+    border-radius: 10px;
+}
+
+.send {
+    font-size: 2.5rem;
+    width: 60%;
+    height: 70px;
+    margin-right: 0%;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 35px;
+    width: 30%;
+    margin-bottom: 100px;
+    background-color: #BDDFC2;
+    cursor: pointer;
+    cursor: hand;
+}
+
+form {
+    margin: 0;
+}
+
+.text-danger{
+    color: red;
+}
+
+.back{
+    position: absolute;
+    right:50px;
+    bottom:20px;
+    font-size: 30px;
+}
+
+.backButton{
+    margin: 20px;
+    background-color: #C6A371;
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.backButton:hover{
+    background-color: rgb(168, 127, 74);
+}

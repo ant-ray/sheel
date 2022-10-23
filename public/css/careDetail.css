@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+.wrapper {
+    width: 100%;
+    margin: 0%;
+}
+
+.content {
+    width: 80%;
+    margin-top: 140px;
+    margin-left: 10%;
+}
+
+.detailBox{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #BDDFC2;
+    border-radius: 20px;
+    border: solid 1px #c0c0c0;
+}
+
+.upper{
+    display:flex;
+}
+
+.delete{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.name{
+    margin: 20px;
+    background-color: white;
+    width: 300px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.tel{
+    margin: 20px;
+    background-color: white;
+    width: 300px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.under{
+    display:flex;
+    justify-content: space-between;
+}
+
+.information{
+    margin: 20px;
+    background-color: white;
+    width: 700px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    word-wrap: break-word;
+}
+
+.information p{
+    margin: 0;
+    padding: 0;
+}
+
+.back{
+    margin-top: 20px;
+}
+
+.backButton{
+    margin: 20px;
+    background-color: #C6A371;
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.backButton:hover{
+    background-color: rgb(168, 127, 74);
+}

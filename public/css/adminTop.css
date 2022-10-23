@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+.wrapper {
+    width: 100%;
+    margin: 0%;
+}
+
+.content {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search{
+    margin-left: 20px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.searchBox{
+    margin: 20px;
+    height: 50px;
+    width: 250px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0.5rem;
+    border: #BDDFC2;
+    outline: none;
+}
+
+.searchSend{
+    margin: 20px;
+    width: 120px;
+    margin-left: 0;
+    background-color: #BDDFC2;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.searchSend:hover{
+    background-color: #99c99f;
+}
+
+.menu-b{
+    margin-right: 20px;
+}
+
+.menu-b button{
+    margin: 20px;
+    background-color: #C6A371;
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.menu-b button:hover{
+    background-color: rgb(168, 127, 74);
+}
+
+.send {
+    width: 10%;
+    color: white;
+    background: #BDDFC2;
+    border-color: #BDDFC2;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 20px 20px #BDDFC2;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.send:hover{
+    color: #EAEAEA;
+}
+
+.text-danger{
+    color: red;
+}
+
+.flash_message{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+}

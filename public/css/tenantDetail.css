@@ -1,0 +1,309 @@
+@charset "utf-8";
+
+.wrapper {
+    width: 100%;
+    margin: 0%;
+}
+
+.content {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.detailBox {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    background-color: #BDDFC2;
+    border-radius: 20px;
+    border: solid 1px #c0c0c0;
+}
+
+.upper {
+    display: flex;
+}
+
+.name {
+    margin: 20px;
+    padding-top: 20px;
+    background-color: white;
+    width: 300px;
+    font-weight: bold;
+    font-size: 35px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    word-wrap: break-word;
+
+}
+
+.tel {
+    margin: 20px;
+    background-color: white;
+    width: 350px;
+    font-weight: bold;
+    font-size: 35px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.under {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information {
+    margin: 20px;
+    background-color: white;
+    width: 700px;
+    font-weight: bold;
+    font-size: 35px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    word-wrap: break-word;
+}
+
+.information p {
+    margin: 0;
+    padding: 0;
+}
+
+.back {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column;
+}
+
+.delete {
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.backButton {
+    margin: 20px;
+    background-color: #C6A371;
+    width: 120px;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.backButton:hover {
+    background-color: rgb(168, 127, 74);
+}
+
+.creatCondition {
+    margin: 20px;
+    background-color: #C6A371;
+    width: 160px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.creatCondition:hover {
+    background-color: rgb(168, 127, 74);
+}
+
+.conditionContent {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #BDDFC2;
+    border-radius: 20px;
+    border: solid 1px #c0c0c0;
+}
+
+
+.infor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.created_at {
+    margin: 20px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 35px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+}
+
+.condition {
+    margin: 20px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 35px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+}
+
+.body {
+    margin: 20px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 35px;
+    border-radius: 0.5rem;
+    word-wrap: break-word;
+    border: none;
+    outline: none;
+}
+
+.conditions {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #BDDFC2;
+    border-radius: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#conditionsText{
+    display: flex;
+}
+
+.conditions p{
+    background-color: white;
+    margin-left: 20px;
+    padding-top: 40px;
+    border-radius: 0.5rem;
+    word-wrap: break-word;
+    border: none;
+    outline: none;
+}
+
+.conditionButtons {
+    padding-top: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.good {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+    color: white;
+    background: #F0ABD2;
+    border-color: #F0ABD2;
+    box-shadow: 0 0 15px 15px #F0ABD2;
+}
+
+.good:hover {
+    background: #e599c3;
+    border-color: #e599c3;
+    box-shadow: 0 0 20px 20px #e599c3;
+}
+
+.usually {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+    color: white;
+    background: #F7C3AB;
+    border-color: #F7C3AB;
+    box-shadow: 0 0 15px 15px #F7C3AB;
+}
+
+.usually:hover {
+    background: #e5a589;
+    border-color: #e5a589;
+    box-shadow: 0 0 20px 20px #e5a589;
+}
+
+.bad {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+    color: white;
+    background: #c99dc6;
+    border-color: #c99dc6;
+    box-shadow: 0 0 15px 15px #c99dc6;
+}
+
+.bad:hover {
+    background: #b27ead;
+    border-color: #b27ead;
+    box-shadow: 0 0 20px 20px #b27ead;
+}
+
+
+.search{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchBox{
+    height: 60px;
+    width: 250px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0.5rem;
+    border: #BDDFC2;
+    outline: none;
+}
+
+.searchSend{
+    margin-left: 20;
+    background-color: #BDDFC2;
+    height: 60px;
+    width: 140px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.searchSend:hover{
+    background-color: #99c99f;
+}

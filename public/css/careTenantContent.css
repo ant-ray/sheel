@@ -1,0 +1,76 @@
+.wrapper{
+    width: 100%;
+}
+
+.cont{
+    display: inline-block;
+    margin-left: 5%;
+    width: 40%;
+}
+
+.tenantContent{
+    background-color: #BDDFC2;
+    border-radius: 20px;
+    border: solid 1px #c0c0c0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.tenantContent-b{
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    border: solid 1px #c0c0c0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.up{
+    display: flex;
+}
+
+.tenantName{
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    width: 300px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+    word-wrap: break-word;
+}
+
+.tenantName:hover{
+    background-color: #f4f2f2;
+}
+
+.check{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.condition{
+    margin: 20px;
+    background-color: white;
+    width: 880px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 0.5rem;
+    word-wrap: break-word;
+    border: none;
+    outline: none;
+}
+
+.emergency_contact{
+    margin: 20px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+}

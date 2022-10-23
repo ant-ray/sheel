@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+.wrapper {
+    width: 100%;
+    margin: 0%;
+    position: relative;
+}
+
+.content {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.registerBox {
+    text-align: center;
+}
+
+.want {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 35px;
+}
+
+label {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+input {
+    font-size: 2.5rem;
+    width: 60%;
+    height: 70px;
+    margin-right: 0%;
+    border-radius: 10px;
+}
+
+.send {
+    margin-top: 35px;
+    width: 30%;
+    margin-bottom: 100px;
+    background-color: #BDDFC2;
+    cursor: pointer;
+    cursor: hand;
+}
+
+form {
+    margin: 0;
+}
+
+.back{
+    position: absolute;
+    right:50px;
+    bottom:50px;
+    font-size: 30px;
+}
+
+.text-danger{
+    color: red;
+}
