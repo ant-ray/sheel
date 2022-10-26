@@ -11,7 +11,7 @@
                     }
                 }
             </script>
-            <button class="backButton" onclick="location.href='{{ route('user') }}?id={{ $user['id'] }}'">編集</button>
+            <button class="backButton" onclick="location.href='{{ route('userUpdate') }}?id={{ $user['id'] }}'">編集</button>
             <button class="backButton" onclick="disp()">削除</button>
         </div>
     </div>

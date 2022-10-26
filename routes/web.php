@@ -80,6 +80,9 @@ Route::get('tenantDelete', [SheelController::class, 'exeTenantDelete'])->name('t
 //施設従業員一覧
 Route::get('userList', [SheelController::class, 'showUserList'])->name('userList');
 Route::post('userList', [SheelController::class, 'showUserListSearch'])->name('userListSearch');
+//従業員編集
+Route::get('userUpdate', [SheelController::class, 'showUserUpdate'])->name('userUpdate');
+Route::post('userUpdate', [SheelController::class, 'exeUserUpdate']);
 //従業員削除画面
 Route::get('user', [SheelController::class, 'showUser'])->name('user');
 //従業員削除
