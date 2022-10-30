@@ -58,8 +58,9 @@ class SheelController extends Controller
             $tenants = $query->paginate();
             //施設プルダウン表示用変数
             $institutions = Institution::orderBy('created_at')->paginate();
-
-            return view('sheel.top', compact('tenants', 'institutions', 's_name'));
+            $s_institution = DB::table('institutions')->find($s_institution);
+            //dd($s_institution);
+            return view('sheel.top', compact('tenants', 'institutions', 's_name','s_institution'));
         }
         return view('auth.login')->with('flash_message', '不正なアクセスです。');
     }
