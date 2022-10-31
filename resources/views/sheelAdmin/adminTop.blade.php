@@ -10,10 +10,17 @@
                     @csrf
                     <input class="searchBox" type="search" name="s_name" value="{{ $s_name ?? '' }}" placeholder="お名前を入力">
                     <select class="searchBox" type="search" name="s_institution" placeholder="施設検索">
-                        <option value="">入居施設を選択</option>
-                        @foreach ($institutions as $institution)
-                            <option value="{{ $institution->id }}">{{ $institution->name }}</option>
-                        @endforeach
+                        @isset($s_institution)
+                            <option value="{{ $s_institution->id }}">{{ $s_institution->name }}</option>
+                            @foreach ($institutions as $institution)
+                                <option value="{{ $institution->id }}">{{ $institution->name }}</option>
+                            @endforeach
+                        @else
+                            <option value="">入居施設を選択</option>
+                            @foreach ($institutions as $institution)
+                                <option value="{{ $institution->id }}">{{ $institution->name }}</option>
+                            @endforeach
+                        @endisset
                     </select>
                     <input class="searchSend" type="submit" name="submit" value="検索">
                 </form>

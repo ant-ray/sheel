@@ -59,7 +59,7 @@ class SheelController extends Controller
             //施設プルダウン表示用変数
             $institutions = Institution::orderBy('created_at')->paginate();
             $s_institution = DB::table('institutions')->find($s_institution);
-            //dd($s_institution);
+
             return view('sheel.top', compact('tenants', 'institutions', 's_name','s_institution'));
         }
         return view('auth.login')->with('flash_message', '不正なアクセスです。');
@@ -99,8 +99,10 @@ class SheelController extends Controller
             }
             //ページネーション呼び出し
             $institutions = $query->paginate();
+            $a_institution = DB::table('institutions')->find($s_institution);
             $s_institutions = Institution::orderBy('created_at')->paginate();
-            return view('sheel.institutionList', compact('institutions', 's_institutions'));
+
+            return view('sheel.institutionList', compact('institutions', 's_institutions', 'a_institution'));
         }
         return view('auth.login')->with('flash_message', '不正なアクセスです。');
     }
@@ -389,8 +391,9 @@ class SheelController extends Controller
             $tenants = $query->paginate();
             //施設プルダウン表示用変数
             $institutions = Institution::orderBy('created_at')->paginate();
+            $s_institution = DB::table('institutions')->find($s_institution);
 
-            return view('sheelAdmin.AdminTop', compact('tenants', 'institutions', 's_name'));
+            return view('sheelAdmin.AdminTop', compact('tenants', 'institutions', 's_name','s_institution'));
         }
         return view('auth.login')->with('flash_message', '不正なアクセスです。');
     }
@@ -428,8 +431,9 @@ class SheelController extends Controller
             }
             //ページネーション呼び出し
             $institutions = $query->paginate();
+            $a_institution = DB::table('institutions')->find($s_institution);
             $s_institutions = Institution::orderBy('created_at')->paginate();
-            return view('sheelAdmin.adminInstitutionList', compact('institutions', 's_institutions'));
+            return view('sheelAdmin.adminInstitutionList', compact('institutions', 's_institutions','a_institution'));
         }
         return view('auth.login')->with('flash_message', '不正なアクセスです。');
     }

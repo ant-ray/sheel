@@ -9,10 +9,17 @@
                 <form action="{{ route('adminInstitutionListSearch') }}" method="post">
                     @csrf
                     <select class="searchBox" type="search" name="s_institution" placeholder="施設検索">
-                        <option value="">入居施設を選択</option>
-                        @foreach ($s_institutions as $s_institution)
-                            <option value="{{ $s_institution->id }}">{{ $s_institution->name }}</option>
-                        @endforeach
+                        @isset($a_institution)
+                            <option value="{{ $a_institution->id }}">{{ $a_institution->name }}</option>
+                            @foreach ($s_institutions as $s_institution)
+                                <option value="{{ $s_institution->id }}">{{ $s_institution->name }}</option>
+                            @endforeach
+                        @else
+                            <option value="">入居施設を選択</option>
+                            @foreach ($s_institutions as $s_institution)
+                                <option value="{{ $s_institution->id }}">{{ $s_institution->name }}</option>
+                            @endforeach
+                        @endisset
                     </select>
                     <input class="searchSend" type="submit" name="submit" value="検索">
                 </form>
